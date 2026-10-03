@@ -758,3 +758,19 @@ a {
         transform: none !important;
     }
 }
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+}
+
+.project-links a {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-accent);
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
